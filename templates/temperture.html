@@ -1,8 +1,12 @@
 {% extends "_frame.html" %}
 {% block body %}
 <div class='col-sm-6'>
-<canvas id="myChart" width="400" height="400"></canvas>
+<canvas id="myChart" width="400" height="200"></canvas>
 </div>
+<div class='col-sm-6'>
+<canvas id="myChart2" width="400" height="200"></canvas>
+</div>
+
 {% endblock %}
 {% block script %}{% include "bar.js" %}{% endblock %}
 
